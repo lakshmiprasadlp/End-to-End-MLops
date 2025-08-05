@@ -1,0 +1,10 @@
+data:
+  path: sklearn.datasets.load_iris
+  test_size: 0.2
+  random_state: 42
+
+model:
+  type: LogisticRegression
+  params:
+    C: 1.0
+    max_iter: 20
